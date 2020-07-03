@@ -1,0 +1,27 @@
+asgiref==3.2.10
+defusedxml==0.6.0
+diff-match-patch==20181111
+Django==3.0.8
+django-import-export==2.2.0
+djangorestframework==3.11.0
+et-xmlfile==1.0.1
+jdcal==1.4.1
+MarkupPy==1.14
+odfpy==1.4.1
+openpyxl==3.0.4
+pytz==2020.1
+PyYAML==5.3.1
+sqlparse==0.3.1
+tablib==2.0.0
+xlrd==1.2.0
+xlwt==1.3.0
+
+
+
+
+urls which works for
+1. Given a bank branch IFSC code, get branch details: 
+http://127.0.0.1:8000/api/?ifsc=SBIN0010433
+
+2. Given a bank name and city, gets details of all branches of the bank in the city:
+http://127.0.0.1:8000/api/?bank=STATE%20BANK%20OF%20INDIA&city=MUMBAI
